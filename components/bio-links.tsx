@@ -73,7 +73,7 @@ export function BioLinks() {
             return (
               <a
                 key={index}
-                href={link! as any}
+                href={"#"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block animate-slide-up"
