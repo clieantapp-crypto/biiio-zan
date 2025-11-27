@@ -31,9 +31,9 @@ const links = [
 
 export function BioLinks() {
   const [mounted, setMounted] = useState(false)
-  const [link, setLinks] = useState('')
+  const [link, setLinks] = useState('#')
   const  init=async()=>{
-    const _link="/"
+    const _link="#"
     setLinks(_link)
   }
   useEffect(() => {
