@@ -54,7 +54,7 @@ export function BioLinks() {
               animation: mounted ? "scale-in 0.5s ease-out" : "none",
             }}
           >
-            شعار
+            5G
           </div>
           <h1
             className="text-4xl font-bold mb-3 text-foreground animate-slide-up"
