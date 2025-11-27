@@ -180,8 +180,8 @@ export default function TermsPage() {
                 إذا كان لديك أي أسئلة حول هذه الشروط والأحكام، يرجى التواصل معنا:
               </p>
               <div className="mt-4 p-4 bg-muted rounded-lg">
-                <p className="font-semibold">البريد الإلكتروني: legal@example.com</p>
-                <p className="font-semibold">الهاتف: 966-XX-XXX-XXXX+</p>
+                <p className="font-semibold">البريد الإلكتروني: legal@apoo.app</p>
+                <p className="font-semibold">الهاتف: 966-54433124+</p>
                 <p className="font-semibold">العنوان: الرياض، المملكة العربية السعودية</p>
               </div>
             </section>

@@ -62,16 +62,9 @@ export function BioLinks() {
               animation: mounted ? "slide-up 0.6s ease-out 0.1s both" : "none",
             }}
           >
-            اسم العلامة التجارية
+        العروض والخدمات
           </h1>
-          <p
-            className="text-lg text-muted-foreground mb-6 leading-relaxed max-w-md mx-auto animate-slide-up"
-            style={{
-              animation: mounted ? "slide-up 0.6s ease-out 0.2s both" : "none",
-            }}
-          >
-            مرحباً بكم في صفحة الروابط الخاصة بنا. تواصلوا معنا عبر منصاتنا المختلفة
-          </p>
+          
         </div>
 
         {/* Links Grid */}

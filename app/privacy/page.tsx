@@ -160,8 +160,8 @@ export default function PrivacyPage() {
                 إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على:
               </p>
               <div className="mt-4 p-4 bg-muted rounded-lg">
-                <p className="font-semibold">البريد الإلكتروني: privacy@example.com</p>
-                <p className="font-semibold">الهاتف: 966-XX-XXX-XXXX+</p>
+                <p className="font-semibold">البريد الإلكتروني: privacy@apoo.app</p>
+                <p className="font-semibold">الهاتف: 966-54433124+</p>
               </div>
             </section>
           </div>
