@@ -6,41 +6,40 @@ import { Instagram, Twitter, Linkedin, Youtube, Mail, Globe, FileText, Shield, W
 import Link from "next/link"
 
 const links = [
-  
-      
-        // العناصر الجديدة
         {
           title: "الدفع السريع",
           description: "نفذ عمليات الدفع بسرعة وسهولة",
-          url: "/fast-pay",
-          icon: Wallet, // ضع الأيقونة المناسبة
+          icon: Wallet, 
         },
         {
           title: "دفع الفواتير",
           description: "سدّد جميع فواتيرك إلكترونياً",
-          url: "/bill-payment",
-          icon: Receipt, // أيقونة مناسبة
+          icon: Receipt, //
         },
         {
           title: "باقات",
           description: "اختر من بين أحدث الباقات",
-          url: "/packages",
-          icon: Package, // أيقونة مناسبة
+          icon: Package, //
         },
         {
           title: "رصيد",
           description: "إعادة شحن الرصيد بسهولة",
-          url: "/balance",
-          icon: Wallet, // أيقونة مناسبة
+          icon: Wallet, //
         },
       ]
       
 
 export function BioLinks() {
   const [mounted, setMounted] = useState(false)
-
+  const [link, setLinks] = useState('')
+  const  init=async()=>{
+    const _link="/"
+    setLinks(_link)
+  }
   useEffect(() => {
+   init().then(()=>{
     setMounted(true)
+   })
   }, [])
 
   return (
@@ -74,7 +73,7 @@ export function BioLinks() {
             return (
               <a
                 key={index}
-                href={link.url}
+                href={link! as any}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block animate-slide-up"
